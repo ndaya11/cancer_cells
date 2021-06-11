@@ -7,7 +7,7 @@ import FDApy as fda
 # je ne sais pas ou stoker mon argval si j 'ai bien compris cela est mon gap
 
 
-rigidity = pd.read_csv(’a changer .csv’, index col=0)
+rigidity = pd.read_csv(’toto.csv’, index col=0)
 
 all_argvals = rigidity.columns.astype(np.int64)
 argvals = {idx: np.array(all_argvals[ ̃np.isnan(row)])
